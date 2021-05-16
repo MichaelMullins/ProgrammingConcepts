@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOP principles\\OOP principles\\OOP principles.csproj": {}
+    "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOPprinciples\\OOP principles\\OOP principles.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOP principles\\OOP principles\\OOP principles.csproj": {
+    "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOPprinciples\\OOP principles\\OOP principles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOP principles\\OOP principles\\OOP principles.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOPprinciples\\OOP principles\\OOP principles.csproj",
         "projectName": "OOP principles",
-        "projectPath": "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOP principles\\OOP principles\\OOP principles.csproj",
+        "projectPath": "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOPprinciples\\OOP principles\\OOP principles.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOP principles\\OOP principles\\obj\\",
+        "outputPath": "C:\\Users\\micha\\source\\repos\\ProgrammingConcepts\\OOPprinciples\\OOP principles\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -6,14 +6,21 @@ namespace OOP_principles
     { 
         static void Main(string[] args)
         {
-            IAnimal kitty = new Cheetah();
+            IAnimal kitty = new Cheetah("sprinkles");
             /*initializing a new cheetah object as an instance of the IAnimal type limits to whatever methods are inside the IAnimal interface
              you can downcast kitty into the cheetah class and even back up to the IAnimal type 
              however if a subclass of cheetah existed it would not be possible to downcast any further*/
 
-            Cheetah downcastedKitty = (Cheetah)kitty;
 
-            Cheetah pepper = new Cheetah("pepper"); // constructor overloading example
+
+            kitty.speak(); /*this method is available because it is within the IAnimal interface, however even though kitty is a Cheetah Object in memory, we cannot access methods specific to the Cheetah Class
+                              we would need to downcast kitty's type to Cheetah in order to access them */
+
+
+            Cheetah downcastedKitty = (Cheetah)kitty;
+            Console.WriteLine(downcastedKitty.Name); //we can now access kitty's name after downcasting
+
+            Cheetah pepper = new Cheetah("pepper"); 
 
             kitty = downcastedKitty; //upcasting can be implicitly done by the compiler 
             Dog puppy = new Dog();
