@@ -11,8 +11,8 @@ namespace OOP_principles
 
 
         private String lastMeal { get; set; }  
-        public string Name {get;}  /*by setting the variable to private with a getter and not a setter you can make a class read only to limit access, 
-                             in this instance it might be beneficial to allow a setter for Name but this is only left in as an example*/
+        public string Name { get; private set; }  /*by setting the variable setter to private with a public getter you can make a class read only to limit access, 
+                             in this instance it might be beneficial to lessen restrictions on a setter for Name but this is only left in as an example*/
 
         public Cheetah()
         {

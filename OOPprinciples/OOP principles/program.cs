@@ -19,6 +19,7 @@ namespace OOP_principles
 
             Cheetah downcastedKitty = (Cheetah)kitty;
             Console.WriteLine(downcastedKitty.Name); //we can now access kitty's name after downcasting
+            
 
             Cheetah pepper = new Cheetah("pepper"); 
 
